@@ -116,7 +116,7 @@
     }
 }
 
-//iOS7里计算行高,会覆盖self.tableView.estimatedRowHeight self.tableView.rowHeightde 的设置
+//iOS7里计算行高,会覆盖self.tableView.estimatedRowHeight self.tableView.rowHeightde 的设置 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if (indexPath.section == 0) {
